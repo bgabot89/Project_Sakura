@@ -22,10 +22,10 @@ export default class App extends Component {
       <div id="myNav" className="navbar-collapse collapse">
   			<ul className="nav navbar-nav navbar-right">
   				<li className="page-scroll">
-  					<Link to="/map">About</Link>
+  					<Link to="/map">Events</Link>
   				</li>
   				<li className="page-scroll">
-  					<Link to="#event">Events</Link>
+  					<Link to="#event">Music</Link>
   				</li>
           <li className="page-scroll">
             <Link to="#genre">Genre Samples</Link>

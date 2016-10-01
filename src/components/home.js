@@ -1365,8 +1365,8 @@ export default () => {
               <path className="st77" d="M616.9 1601l-18.9 7.4-5.2-9.8z"/>
               <path className="st78" d="M316.1 1614.8l6.2 5.8 15.7-17.9z"/>
           </g>
-          <text transform="translate(932.994 1391.867)" id="text_layer">
-              <tspan x="0" y="0" className="st79 st80 st81">Project Sakura</tspan><tspan x="0" y="144" className="st79 st80 st82">Beta v. 1.5</tspan>
+          <text transform="translate(932.994 1500.867)" id="text_layer">
+              <tspan x="0" y="0" className="st79 st80 st81">Project Sakura</tspan>
           </text>
           <g id="hair">
               <path id="top_hair_1_" className="st83" d="M555.5 1127.9c21.1-86.1 22-149.7 3.3-175.9 41.2 52.4 29 73 23.4 123.5 76.7-184.3-92.6-214.2-92.6-214.2l-13.1-3.2c-2.7-18.4 1.2-35.1 18-49.8 22.6-19.8 61.9-35.6 76.9-42.6-109.4-8.5-112.5 77-120.2 92.4-106.4-4.6-126.3 101.7-132.4 135.6-10 40.8 3.9 79.3 16.2 117.1-4.8-27.1-3-57.4.1-81.5-.5 48.3 24.5 89 28.7 100.9.3.9 2.8.9 1.6 26.3l190.1-28.6z"/>
