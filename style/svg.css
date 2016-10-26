@@ -200,31 +200,198 @@
   stroke-miterlimit:10
 }
 
-.st55,.st56,.st57,.st58,.st59,.st60,.st61{stroke-width:4.775653e-2}
-.st56,.st57,.st58,.st59,.st60,.st61{stroke-width:4.052805e-2}
-.st57,.st58,.st59,.st60,.st61{fill:#f9f946;stroke-width:4.185602e-2}
-.st58,.st59,.st60,.st61{stroke-width:5.614851e-2}
-.st59,.st60,.st61{fill:#f078f4;stroke-width:4.448918e-2}
-.st60,.st61{fill:#f9f946;stroke-width:5.121582e-2}
-.st61{fill:#f078f4;stroke-width:3.618896e-2}
-.st62,.st63,.st64,.st65,.st66,.st67,.st68{fill:#f9f946;stroke:#f9b0ff;stroke-width:8.047333e-2;stroke-miterlimit:10}
-.st63,.st64,.st65,.st66,.st67,.st68{stroke-width:6.534137e-2}
-.st64,.st65,.st66,.st67,.st68{fill:#f078f4;stroke-width:5.183289e-2}
-.st65,.st66,.st67,.st68{stroke-width:4.331146e-2}
-.st66,.st67,.st68{stroke-width:7.586213e-2}
-.st67,.st68{stroke-width:3.851693e-2}
-.st68{stroke-width:7.534631e-2}
-.st69{fill:#59c9ef}
-.st70{fill:#dd4376}
-.st71{fill:#c4c4c4}
-.st72{fill:#f94679}
-.st73{fill:#938f90}
-.st74{fill:#f9d4a7}
-.st75{fill:#494642}
-.st76{fill:#cbf7f7}
-.st77{fill:#3a3aef}
-.st78{fill:#1362b7}
-.st79{fill:#f9f}
-.st81{font-size:200px}
-.st82{font-size:120px}
-.st83{fill:#ec7d29}
+.st55,.st56,.st57,.st58,.st59,.st60,.st61 {
+  stroke-width:4.775653e-2
+}
+.st56,.st57,.st58,.st59,.st60,.st61 {
+  stroke-width:4.052805e-2
+}
+
+.st57,.st58,.st59,.st60,.st61 {
+  fill:#f9f946;
+  stroke-width:4.185602e-2
+}
+
+.st58,.st59,.st60,.st61 {
+  stroke-width:5.614851e-2
+}
+
+.st59,.st60,.st61 {
+  fill:#f078f4;
+  stroke-width:4.448918e-2
+}
+
+.st60,.st61 {
+  fill:#f9f946;
+  stroke-width:5.121582e-2
+}
+
+.st61 {
+  fill:#f078f4;
+  stroke-width:3.618896e-2
+}
+
+.st62,.st63,.st64,.st65,.st66,.st67,.st68 {
+  fill:#f9f946;
+  stroke:#f9b0ff;
+  stroke-width:8.047333e-2;
+  stroke-miterlimit:10
+}
+
+.st63,.st64,.st65,.st66,.st67,.st68 {
+  stroke-width:6.534137e-2
+}
+
+.st64,.st65,.st66,.st67,.st68 {
+  fill:#f078f4;
+  stroke-width:5.183289e-2
+}
+
+.st65,.st66,.st67,.st68 {
+  stroke-width:4.331146e-2
+}
+
+.st66,.st67,.st68 {
+  stroke-width:7.586213e-2
+}
+
+.st67,.st68 {
+  stroke-width:3.851693e-2
+}
+
+.st68 {
+  stroke-width:7.534631e-2
+}
+
+.st69 {
+  fill:#59c9ef
+}
+
+.st70 {
+  fill:#dd4376
+}
+
+.st71 {
+  fill:#c4c4c4
+}
+
+.st72 {
+  fill:#f94679
+}
+
+.st73 {
+  fill:#938f90
+}
+
+.st74 {
+  fill:#f9d4a7
+}
+
+.st75 {
+  fill:#494642
+}
+
+.st76 {
+  fill:#cbf7f7
+}
+
+.st77 {
+  fill:#3a3aef
+}
+
+.st78 {
+  fill:#1362b7
+}
+
+.st79 {
+  fill:#f9f
+}
+
+.st81 {
+  font-size:200px
+}
+
+.st82 {
+  font-size:120px
+}
+
+.st83 {
+  fill:#ec7d29
+}
+
+/* css for jpop icon */
+
+.st100000 {
+  fill:#27d6f2
+}
+
+.st101 {
+  fill:#ee407f
+}
+
+.st103 {
+  display:inline;
+  fill:#a9a8a8
+}
+
+.st104,.st106,.st107 {
+  display:inline;
+  fill:#db4b9b
+}
+
+.st106,.st107 {
+  fill:#9c3571
+}
+
+.st107 {
+  fill:#dbd9d9
+}
+
+.st108 {
+  fill:#eaa1c7
+}
+
+.st109 {
+  fill:#ee4494
+}
+
+.st110 {
+  fill:#fef8fb
+}
+
+.st111,.st112 {
+  fill:#fef8fb;
+  stroke:#ed218e;
+  stroke-width:8;
+  stroke-miterlimit:10
+}
+
+.st112 {
+  display:inline;
+  fill:none;
+  stroke:#7dd1e9;
+  stroke-width:4
+}
+
+.st114 {
+  display:inline;
+  fill:#58595a
+}
+
+.st115 {
+  fill:#d485b8
+}
+
+.st115,.st117 {
+  display:inline
+}
+
+.st118 {
+  fill:none
+}
+
+.st119,.st120 {
+  fill:#7f777f
+}
+
+.st120{display:inline}.st121{fill:#ffe1c0}.st122{fill:#ebe84b}.st123{fill:#a95aa3}.st124{display:inline;fill:#7dd1e9}.st126{fill:#825422}.st127,.st128,.st129{display:inline;fill:#825422;stroke:#825422;stroke-width:7.874;stroke-miterlimit:10}.st128,.st129{fill:#262524;stroke:#262524;stroke-width:5.5056}.st129{stroke-width:3.4877}.st130,.st131{display:inline;fill:#1b1a1b}.st131{fill:#757273}.st232{fill:#d13fef}

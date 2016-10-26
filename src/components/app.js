@@ -25,11 +25,8 @@ export default class App extends Component {
   					<Link to="/map">Events</Link>
   				</li>
   				<li className="page-scroll">
-  					<Link to="#event">Music</Link>
+  					<Link to="/songs">Music</Link>
   				</li>
-          <li className="page-scroll">
-            <Link to="#genre">Genre Samples</Link>
-          </li>
   			</ul>
     	</div>
       </div>

@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'Orbitron-Regular';
-  src: url('/static/css/Orbitron-Regular.ttf');
+  src: url('../text/Orbitron-Regular.ttf');
 }
 
 .st80 {
@@ -811,5 +811,10 @@ cursor: pointer;
 }
 
 .Map {
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.post-info {
   margin-top: 100px;
 }

@@ -4,6 +4,7 @@ import {GoogleMapLoader, GoogleMap, InfoWindow, Marker} from 'react-google-maps'
 
 export default class PopUpInfoWindow extends Component {
 
+
 //defines initial state where google map will render
   state = {
     center: {
@@ -13,9 +14,9 @@ export default class PopUpInfoWindow extends Component {
     //creates an array of markers
     markers: [
       {
-        position: new google.maps.LatLng(37.7826598, -122.410181),
+        position: new google.maps.LatLng(37.415983878455485, -121.89943252869442),
         showInfo: false,
-        content: 'Place 1'
+        content: '<b>AOD 2017</b>'+'<p>AOD is a convention devoted to japanese anime and video games. Come and listen to the various musicians play music from your favorite japanese anime and video games. </p>'
       },
       {
         position: new google.maps.LatLng(37.806815, -122.4314908),
@@ -55,7 +56,7 @@ export default class PopUpInfoWindow extends Component {
          onCloseclick={this.handleMarkerClose.bind(this, marker)} >
 
         //renders content on the marker
-       <div><strong> {marker.content}</strong></div>
+       <div><h1> {marker.content}</h1></div>
 
      </InfoWindow>
    );
@@ -63,7 +64,7 @@ export default class PopUpInfoWindow extends Component {
   }
 
   render() {
-
+//creates GoogleMap element with specs such as height, width, and zoom
     return (
       <GoogleMapLoader
         containerElement={
@@ -78,7 +79,7 @@ export default class PopUpInfoWindow extends Component {
       googleMapElement={
         <GoogleMap
           center={this.state.center}
-          defaultZoom={13}
+          defaultZoom={9}
           ref='map'>
 
           {this.state.markers.map((marker, index) =>
