@@ -5,7 +5,7 @@ export const CREATE_COMMENT = 'CREATE_COMMENT';
 export const FETCH_COMMENT = 'FETCH_COMMENT';
 export const DELETE_COMMENT = 'DELETE_COMMENT';
 
-const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
+const ROOT_URL = 'https://reduxblog.herokuapp.com/api';
 const API_KEY = '?key=dfadsfalkkli';
 
 //define function that will fetchposts from API
