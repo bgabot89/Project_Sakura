@@ -1,5 +1,3 @@
-var path = require('path');
-
 module.exports = {
   entry: [
     './src/index.js'
@@ -12,7 +10,7 @@ module.exports = {
   module: {
     loaders: [{
       exclude: /node_modules/,
-      loader: 'babel-loader',
+      loader: 'babel',
       query: {
         presets: ['react', 'es2015', 'stage-1']
       }
@@ -20,9 +18,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
-  },
-  resolveLoader: {
-    root: path.join(__dirname, 'node_modules')
   },
   devServer: {
     historyApiFallback: true,
