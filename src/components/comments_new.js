@@ -21,6 +21,7 @@ class CommentsNew extends Component {
       });
   }
 
+  //render input form
   render() {
     const { fields: { title, categories, content }, handleSubmit } = this.props;
 
@@ -70,7 +71,7 @@ class CommentsNew extends Component {
      errors.categories = 'Enter a categories';
    }
    if (!values.content) {
-     errors.content = 'Enter a content';
+     errors.content = 'Enter some content';
    }
    return errors;
  }

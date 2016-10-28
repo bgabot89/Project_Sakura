@@ -14,3 +14,6 @@ Github link to old app: https://github.com/bgabot89/ProjectSakura
 - React.JS
 - Webpack
 - Node.js
+
+#Bugs
+- Link tag from react-router won't work in Google Maps API. This is a known error with the React Google Maps Package installed and will hopefully be fixed in the near future.

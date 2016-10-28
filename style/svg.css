@@ -395,3 +395,203 @@
 }
 
 .st120{display:inline}.st121{fill:#ffe1c0}.st122{fill:#ebe84b}.st123{fill:#a95aa3}.st124{display:inline;fill:#7dd1e9}.st126{fill:#825422}.st127,.st128,.st129{display:inline;fill:#825422;stroke:#825422;stroke-width:7.874;stroke-miterlimit:10}.st128,.st129{fill:#262524;stroke:#262524;stroke-width:5.5056}.st129{stroke-width:3.4877}.st130,.st131{display:inline;fill:#1b1a1b}.st131{fill:#757273}.st232{fill:#d13fef}
+
+/*props for miku svg */
+
+.st100 {
+  fill:#63bc49
+}
+
+.st101 {
+  fill:#ee407f
+}
+
+.st102 {
+  fill:#a9a8a8
+}
+
+.st103 {
+  display:none
+}
+
+.st104,.st105 {
+  display:inline;
+  fill:#db4b9b
+}
+
+.st105 {
+  fill:#58595a;
+  stroke:none;
+  stroke-width:5;
+  stroke-miterlimit:10
+}
+
+.st106,.st107,.st108 {
+  display:inline;fill:#d485b8
+}
+
+.st107,.st108 {
+  fill:#dbd9d9
+}
+
+.st108 {
+  fill:#eaa1c7
+}
+
+.st109 {
+  fill:#ee4494
+}
+
+.st109,.st110 {
+  display:inline
+}
+
+.st111,.st112 {
+  fill:#fef8fb
+}
+
+.st112 {
+  display:inline;
+  stroke:#ed218e;
+  stroke-width:8;
+  stroke-miterlimit:10
+}
+
+.st113,.st114{fill:none;stroke-miterlimit:10}.st113{stroke-width:4;stroke:#7dd1e9}.st114{stroke:#000}.st115{fill:#58595a}.st116{fill:#d485b8}.st117{display:inline;fill:#ece830}.st118{fill:none}.st119,.st120{fill:#7f777f}.st120{display:inline}.st121{fill:#ffe1c0}.st122,.st123,.st124{display:inline;fill:#ee407f}.st123,.st124{fill:#ebe84b}.st124{fill:#a95aa3}.st125{fill:#7dd1e9}.st126{display:inline}.st126,.st127{fill:#825422}.st128,.st129,.st130{display:inline;fill:#825422;stroke:#825422;stroke-width:7.874;stroke-miterlimit:10}.st129,.st130{fill:#262524;stroke:#262524;stroke-width:5.5056}.st130{stroke-width:3.4877}.st131,.st132{display:inline;fill:#1b1a1b}.st132{fill:#757273}.st133{fill:#8ba2d4}
+
+/*J-Rock SVG */
+
+.st10000{fill:#5c56a5}.st101{fill:#ee407f}.st103{display:inline;fill:#a9a8a8}.st104{fill:#db4b9b}.st1005{display:inline;fill:none;stroke:#9c3571;stroke-width:5;stroke-miterlimit:10}.st106,.st107,.st108{display:inline;fill:#9c3571}.st107,.st108{fill:#dbd9d9}.st108{fill:#eaa1c7}.st109{fill:#ee4494}.st109,.st110{display:inline}.st111{fill:#fef8fb}.st112,.st113,.st114{display:inline;stroke-miterlimit:10}.st112{stroke:#ed218e;stroke-width:8;fill:#fef8fb}.st113,.st114{fill:none}.st113{stroke-width:4;stroke:#7dd1e9}.st114{stroke:#000}.st115,.st116,.st117{display:inline;fill:#58595a}.st116,.st117{fill:#d485b8}.st117{fill:#ece830}.st118{fill:none}.st119{fill:#7f777f}.st120,.st121{fill:#ffe1c0}.st122,.st123,.st124{display:inline;fill:#ebe84b}.st123,.st124{fill:#a95aa3}.st124{fill:#7dd1e9}.st126,.st127{fill:#825422}.st127{display:inline;stroke:#825422;stroke-width:7.874;stroke-miterlimit:10}.st128,.st129{fill:#262524;stroke:#262524;stroke-width:5.5056;stroke-miterlimit:10}.st129{stroke-width:3.4877}.st130{fill:#1b1a1b}.st131{fill:#757273}.st1320{fill:#282728}
+
+/*Animation for miku icon */
+	.music-icon:hover #earphones_miku {
+	  -webkit-animation: turn 1s;
+	          animation: turn 1s;
+	  -webkit-transform: turn(25deg);
+	          transform: turn(0deg);
+	  -webkit-animation-direction: alternate;
+	          animation-direction: alternate;
+  }
+
+	.music-icon:hover #skin {
+	-webkit-animation: turn 1s;
+					animation: turn 1s;
+	-webkit-transform: turn(25deg);
+					transform: turn(0deg);
+	-webkit-animation-direction: alternate;
+					animation-direction: alternate;
+	}
+
+	.music-icon:hover #eyes {
+	-webkit-animation: turn 1s;
+					animation: turn 1s;
+	-webkit-transform: turn(25deg);
+					transform: turn(0deg);
+	-webkit-animation-direction: alternate;
+					animation-direction: alternate;
+	}
+
+	.music-icon:hover #miku_hair {
+	-webkit-animation: turn 1s;
+					animation: turn 1s;
+	-webkit-transform: turn(25deg);
+					transform: turn(0deg);
+	-webkit-animation-direction: alternate;
+					animation-direction: alternate;
+	}
+
+	.music-icon:hover #pigtails_x5F_miku {
+	-webkit-animation: turn 1s;
+					animation: turn 1s;
+	-webkit-transform: turn(25deg);
+					transform: turn(0deg);
+	-webkit-animation-direction: alternate;
+					animation-direction: alternate;
+	}
+
+	.music-icon:hover #miku_x5F_ornaments {
+	-webkit-animation: turn 1s;
+					animation: turn 1s;
+	-webkit-transform: turn(25deg);
+					transform: turn(0deg);
+	-webkit-animation-direction: alternate;
+					animation-direction: alternate;
+	}
+
+  /*J-rock svg*/
+  .music-icon:hover #sunglasses_j-rock {
+  -webkit-animation: turn 1s;
+          animation: turn 1s;
+  -webkit-transform: turn(25deg);
+          transform: turn(0deg);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  }
+
+  .music-icon:hover #moustache_j-rock {
+  -webkit-animation: turn 1s;
+          animation: turn 1s;
+  -webkit-transform: turn(25deg);
+          transform: turn(0deg);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  }
+
+  .music-icon:hover #beard_j-rock {
+  -webkit-animation: turn 1s;
+          animation: turn 1s;
+  -webkit-transform: turn(25deg);
+          transform: turn(0deg);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  }
+
+
+  .music-icon:hover #HAT {
+  -webkit-animation: turn 1s;
+          animation: turn 1s;
+  -webkit-transform: turn(25deg);
+          transform: turn(0deg);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  }
+  .music-icon {
+    width: 40em;
+  }
+  .music-icon:hover #musical_notes {
+    opacity: 1;
+  }
+
+  .music-icon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  /*music note actions*/
+
+  #musical_notes {
+    opacity: 0;
+  }
+
+  #musical_notes .music_note:nth-child(1) { animation-delay: 0s; }
+  #musical_notes .music_note:nth-child(2) { animation-delay: 0.5s; }
+  #musical_notes .music_note:nth-child(3) { animation-delay: 1s; }
+
+  .music-icon:hover .music_note {
+    -webkit-animation:melody 1s infinite ease-in;
+    -moz-animation:melody 1s infinite ease-in;
+    -ms-animation:melody 1s infinite ease-in;
+    animation:melody 1s infinite ease-in;
+  }
+
+  @-webkit-keyframes melody {
+    0% { fill-opacity: 0; }
+    50% { fill-opacity: 0.5 }
+    100% { fill-opacity: 1 }
+  }
+
+  .play_pause_button {
+    font-size: 20px;
+    background-color: #add7ef;
+    border-radius: 10px;
+  }

@@ -1,0 +1,55 @@
+<svg class="svg-music" id="j-rock" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1567.2 1230.1">
+    <style>
+        .st10000{fill:#5c56a5}.st101{fill:#ee407f}.st103{display:inline;fill:#a9a8a8}.st104{fill:#db4b9b}.st1005{display:inline;fill:none;stroke:#9c3571;stroke-width:5;stroke-miterlimit:10}.st106,.st107,.st108{display:inline;fill:#9c3571}.st107,.st108{fill:#dbd9d9}.st108{fill:#eaa1c7}.st109{fill:#ee4494}.st109,.st110{display:inline}.st111{fill:#fef8fb}.st112,.st113,.st114{display:inline;stroke-miterlimit:10}.st112{stroke:#ed218e;stroke-width:8;fill:#fef8fb}.st113,.st114{fill:none}.st113{stroke-width:4;stroke:#7dd1e9}.st114{stroke:#000}.st115,.st116,.st117{display:inline;fill:#58595a}.st116,.st117{fill:#d485b8}.st117{fill:#ece830}.st118{fill:none}.st119{fill:#7f777f}.st120,.st121{fill:#ffe1c0}.st122,.st123,.st124{display:inline;fill:#ebe84b}.st123,.st124{fill:#a95aa3}.st124{fill:#7dd1e9}.st126,.st127{fill:#825422}.st127{display:inline;stroke:#825422;stroke-width:7.874;stroke-miterlimit:10}.st128,.st129{fill:#262524;stroke:#262524;stroke-width:5.5056;stroke-miterlimit:10}.st129{stroke-width:3.4877}.st130{fill:#1b1a1b}.st131{fill:#757273}.st1320{fill:#282728}
+    </style>
+    <circle class="st10000" cx="768" cy="615.1" r="547.5" id="icon_x5F_circle"/>
+    <path class="st104" d="M750 743.8c-110.9 0-200.8 104.1-200.8 232.5 0 63 21.6 120.1 56.7 161.9 50.1 15.5 103.4 24 158.5 24.4 41.4-.2 81.7-5 120.4-14 40.5-42.5 66-104 66-172.3 0-128.4-89.9-232.5-200.8-232.5z" id="j-rock_clothes"/>
+    <g id="J-ROCK_COLLAR" class="st102">
+        <path class="st1005" d="M752.3 857.8l67.1 61.7 42.3-85.5-109.4 23.8M752.3 857.8l-62.2 61.7-38.7-79.7 100.9 18"/>
+    </g>
+    <g id="J-ROCK_BUTTONS" class="st102">
+        <ellipse class="st106" cx="760.1" cy="900.2" rx="7.8" ry="8.4"/>
+        <ellipse class="st106" cx="760.1" cy="973" rx="7.8" ry="8.4"/>
+        <ellipse class="st106" cx="760.1" cy="1059.2" rx="7.8" ry="8.4"/>
+    </g>
+    <g id="vest_j-rock">
+        <path class="st118" d="M800.2 1168.7l81.8-18c-25.9 5.5-52.4 9.1-79.5 10.8-1.3 6.2-2.3 7.2-2.3 7.2zM978 877.6c-29.2-32.7-73.9-69.6-73.9-69.6l-5.8 3.6c36.5 42.1 59.1 100.4 59.1 164.7 0 68.3-25.5 129.8-66 172.3 0 0 59.5-50 66-78.1 6.6-28.1 49.9-160.2 20.6-192.9z"/>
+        <path class="st119" d="M885.5 817.9l-23.8 13.2s-3.1 179.1-42.9 222.4c.4 67.7-2.7 95.2-4.9 106.2 15.8-1 31.4-2.6 46.7-4.9 14.7-2.5 29.2-5.6 43.5-9.3 39.8-42.5 64.8-103.4 64.8-171 0-64.4-22.6-122.6-59.9-171.3l-23.5 14.7z"/>
+        <g>
+            <path class="st118" d="M673 1151.3c-20.9-3.4-41.4-7.9-61.5-13.3-39.3-42.1-63.6-100.3-63.6-164.6 0-57 19.1-109.2 50.8-149.6-18.6 10.9-43.2 26-62.9 40.7-36.9 27.5-14.4 164.9-12.5 193.6s56.3 87.9 56.3 87.9l93.5 34.9c.1 0-2.5-3.3-.1-29.6z"/>
+        </g>
+        <path class="st119" d="M654.1 825.1l-24.3-13.5-24.1-15.1C567.3 846 544 905.3 543.9 970.9c-.2 64.7 22.2 123.4 58.6 166.3 32 10.1 65.2 17.4 99.4 21.5-2.2-12.1-5-40.5-4.5-106.9-40.6-44.2-43.3-226.7-43.3-226.7z"/>
+    </g>
+    <path class="st121" d="M509.5 615.1c0-134.1 108.7-242.8 242.8-242.8S995.1 481 995.1 615.1 886.4 857.9 752.3 857.9c-143.7 0-242.8-83.6-242.8-242.8z" id="skin"/>
+    <g id="eyes">
+        <ellipse cx="648.3" cy="591.3" rx="30.8" ry="51"/>
+        <ellipse cx="856.2" cy="591.3" rx="30.8" ry="51"/>
+    </g>
+    <g id="sunglasses_j-rock">
+        <path class="st128" d="M796.3 524.9h112.1v127.9H796.3zM588.4 524.9h112.1v127.9H588.4zM700.5 554h95.8v25.8h-95.8zM908.4 554l78-.6 5.2 25.8-83.2.5"/>
+        <path class="st128" d="M591 551.2h-69.5l-8.5 28.5h78z"/>
+    </g>
+    <g id="moustache_j-rock">
+        <path class="st129" d="M785.9 711.5l29.4 15.1-3-15.1-27.2-12.4zM686.9 713.9l29.9-14.4-3.5 15-27.6 11.7z"/>
+    </g>
+    <path class="st130" d="M779.4 856.8L768 823.5h-32.9L725 856.4s49.7 4.4 54.4.4z" id="beard_j-rock"/>
+    <g id="HAT">
+        <path class="st130" d="M484.7 508.7h548.9l-41.1-27.9H513.9l-29.2 22.1M959 480.8S921.7 200 743.4 313c1.2 2.3 0 167.8 0 167.8H959z"/>
+        <path class="st130" d="M531.9 484.5s35.3-281.1 214.4-169.4c-1.1 2.3 1.2 167.8 1.2 167.8l-215.6 1.6z"/>
+        <path class="st131" d="M532.4 480.8H959l-3.9-21.7H536.3z"/>
+    </g>
+    <g id="musical_notes">
+        <g class="music_note" id="music_note1">
+            <ellipse transform="scale(-1) rotate(-16.086 -2826.746 7592.52)" class="st1320" cx="1073" cy="399.4" rx="61.6" ry="38.6"/>
+            <path class="st1320" d="M1105 360.6l-50.7-175.7s102.6-42.3 147.6 96c-19.9-18.7-57.7-65-112.3-46 22.7 73.7 40.7 143 40.7 143"/>
+        </g>
+        <g class="music_note" id="music_note2">
+            <ellipse transform="scale(-1) rotate(-16.086 -2368.804 9000.845)" class="st1320" cx="1272" cy="334.7" rx="44.5" ry="27.9"/>
+            <path class="st1320" d="M1295.1 306.6l-36.6-127.1s74.2-30.6 106.7 69.4c-14.4-13.5-41.7-47-81.2-33.3 16.4 53.3 29.5 103.4 29.5 103.4"/>
+        </g>
+        <g class="music_note" id="music_note3">
+            <ellipse transform="scale(-1) rotate(-16.086 -2025.271 10137.473)" class="st1320" cx="1432.6" cy="286.2" rx="31" ry="19.4"/>
+            <path class="st1320" d="M1448.7 266.6l-25.5-88.4s51.6-21.3 74.3 48.3c-10-9.4-29-32.7-56.5-23.2 11.4 37.1 20.5 72 20.5 72"/>
+        </g>
+    </g>
+</svg>

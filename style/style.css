@@ -371,38 +371,6 @@ h2 {
 
 
 /* Note: from st-7 to st-19 had strokes, manually removed them to fix for safari */
-
-#play_button{
-  height: 100px;
-  width: 100px;
-}
-
-#play_button:hover {
-  cursor: pointer;
-}
-
-#back_button {
-  height: 100px;
-  width: 100px;
-}
-
-#back_button {
-  cursor:pointer;
-}
-
-#ff_button {
-  height: 100px;
-  width: 100px;
-}
-
-#ff_button {
-  cursor: pointer;
-}
-
-#play {
-  visibility: hidden;
-}
-
 .rowWithFullWidth, .genrerow{
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -422,14 +390,7 @@ padding-top: 40px;
 color: white;
 font-size: 17px;
 }
-/*sky color test
-.st0:hover {
-  fill:#990000;
-}*/
 
-/*#soundcloud-widget {
-  display: none;
-}*/
 
 .map {
   width: 50%;
@@ -437,33 +398,6 @@ font-size: 17px;
   margin: 0 auto;
   padding-top: 50%;
   position: relative;
-}
-
-#map_wrapper {
-  height: 400px;
-  display: block;
-}
-
-#map_canvas {
-  width: 75%;
-  height: 100%;
-  margin: 0 auto;
-}
-
-#map_canvas2 {
-  width: 75%;
-  height:100%;
-  margin: 0 auto;
-  display: none;
-  /*padding-top: 100px;*/
-}
-
-#map_canvas3 {
-  width: 75%;
-  height:100%;
-  margin: 0 auto;
-  display: none;
-  /*padding-top: 100px;*/
 }
 
 #cities {
@@ -537,164 +471,6 @@ transition: all 0.1s;
   font-size: 30px;
 }
 
-/*Animation for miku icon */
-.music-icon:hover #earphones_miku {
-  -webkit-animation: turn 1s;
-          animation: turn 1s;
-  -webkit-transform: turn(25deg);
-          transform: turn(0deg);
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-}
-
-.music-icon:hover #skin {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #eyes {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #miku_hair {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #pigtails_x5F_miku {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #miku_x5F_ornaments {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-/*Animation for hiphop icon*/
-.music-icon:hover #Dollar_Sign {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #chains {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #hip_hop_hair {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #hip_hop_beard {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-/*J-rock svg*/
-.music-icon:hover #sunglasses_j-rock {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #moustache_j-rock {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #beard_j-rock {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-
-.music-icon:hover #HAT {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-/*j-pop animation*/
-.music-icon:hover #jpop_hair_base {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #pigtails_jpop {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
-.music-icon:hover #bowties {
--webkit-animation: turn 1s;
-        animation: turn 1s;
--webkit-transform: turn(25deg);
-        transform: turn(0deg);
--webkit-animation-direction: alternate;
-        animation-direction: alternate;
-}
-
 @-webkit-keyframes turn {
   0% {
     -webkit-transform: rotate(-2deg);
@@ -708,31 +484,6 @@ transition: all 0.1s;
     -webkit-transform: rotate(-5deg);
             transform: rotate(-5deg);
   }
-}
-
-.music-icon:hover .music_note {
-  -webkit-animation:melody 1s infinite ease-in;
-  -moz-animation:melody 1s infinite ease-in;
-  -ms-animation:melody 1s infinite ease-in;
-  animation:melody 1s infinite ease-in;
-}
-
-@-webkit-keyframes melody {
-  0% { fill-opacity: 0; }
-  50% { fill-opacity: 0.5 }
-  100% { fill-opacity: 1 }
-}
-
-.svg-music .music_note:nth-child(1) { animation-delay: 0s; }
-.svg-music .music_note:nth-child(2) { animation-delay: 0.5s; }
-.svg-music .music_note:nth-child(3) { animation-delay: 1s; }
-
-#musical_notes {
-  opacity: 0;
-}
-
-.music-icon:hover #musical_notes {
-  opacity: 1;
 }
 
 @keyframes turn {
@@ -752,10 +503,6 @@ transition: all 0.1s;
 
 /* music icon actions */
 
-.music-icon:hover {
-transform: scale(1.05);
-cursor: pointer;
-}
 
 .music-genres {
   background-color: #e699ff;
@@ -817,4 +564,56 @@ cursor: pointer;
 
 .post-info {
   margin-top: 100px;
+}
+
+.event-icon {
+  border-radius: 50%;
+}
+
+/*genre bg css*/
+.genre-bg {
+  width: 1000px;
+  height: 330px;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display:inline-block;
+  margin: 0 1em 1em 0;
+  position: relative;
+
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 1000px;
+  height: 330px;
+  left: 0;
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
 }

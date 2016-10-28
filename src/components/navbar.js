@@ -3,8 +3,7 @@ import { Component } from 'react';
 import { Link } from 'react-router';
 import Home from './home';
 
-
-export default class App extends Component {
+export default class Navbar extends Component {
   render() {
     return (
       <div>
