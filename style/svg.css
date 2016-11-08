@@ -1,6 +1,6 @@
 /*props for svg bg image */
 .st0 {
-  fill:#3adbd7
+  fill:#14d2d5
 }
 
 .st1 {
@@ -8,7 +8,7 @@
 }
 
 .st2 {
-  fill:#9abe2b
+  fill:#5CB85C
 }
 
 .st3 {
@@ -307,17 +307,30 @@
   fill:#f9f
 }
 
-.st81 {
-  font-size:200px
+.st80 {
+  font-family:'Orbitron-Regular';
 }
 
-.st82 {
-  font-size:120px
+.st81 {
+  font-size:200px
 }
 
 .st83 {
   fill:#ec7d29
 }
+
+/* Learn More Button */
+
+.st703{fill:#CD1076;}
+.st704{fill:none;}
+.st705{fill:#FFFDFE;}
+.st706{font-family:'HelveticaNeue';}
+.st707{font-size:70px;}
+
+#Learn_button:hover {
+  cursor: pointer;
+}
+
 
 /* css for jpop icon */
 
