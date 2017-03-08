@@ -1,0 +1,595 @@
+/*old css code for bg*/
+
+.girl {
+  margin-top: -50px;
+  background-size: cover;
+}
+
+#hair {
+  -webkit-animation: skew 4s infinite;
+          animation: skew 4s infinite;
+  -webkit-transform: skew(10deg);
+          transform: skew(0deg);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  }
+
+
+@-webkit-keyframes skew {
+  0% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  100% {
+    -webkit-transform: skewX(-2deg);
+            transform: skewX(-2deg);
+  }
+}
+
+
+@keyframes skew {
+  0% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  100% {
+    -webkit-transform: skewX(-2deg);
+            transform: skewX(-2deg);
+  }
+}
+
+#petal32323 {
+  opacity:0.50;
+  position: absolute;
+   /*animation test for spinning*/
+  -webkit-animation: spin 10s infinite linear;
+  -moz-animation: spin 10s infinite linear;
+  animation: spin 10s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  100% {-webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  100% {-moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% { -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+    }
+  }
+
+
+#text_layer {
+  opacity: 0;
+  -moz-animation:fadeIn ease-in 1;
+  -webkit-animation:fadeIn ease-in 1; /*calls keyframe fadeIn */
+  animation:fadeIn ease-in 1;
+
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; /* after animation is done we remain at last key value */
+  animation-fill-mode: forwards;
+
+  -moz-animation-duration:1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+
+/* For use in FireFox */
+@-moz-keyframes fadeIn {
+   0% {
+    opacity:0;
+}
+ 100% {
+    opacity:1;
+
+    }
+  }
+
+/* For use in Safari/Chrome  */
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+  opacity: 1;
+}
+}
+
+@keyframes fadeIn {
+  0% {
+  opacity:0;
+  }
+  100%
+  {
+  opacity:1;
+      }
+}
+
+#clouds {
+  position: absolute;
+  -webkit-animation:drift 10s linear infinite forwards;
+  -moz-animation:drift 10s linear infinite forwards;
+  -ms-animation:drift 10s linear infinite forwards;
+  animation: drift 10s linear infinite forwards;
+}
+
+@-webkit-keyframes drift {
+0% {
+  opacity: 1;-webkit-transform: translateX(-10px);
+}
+
+50% {
+  opacity: 0.75;
+    }
+
+100% {
+  opacity: 0.25;-webkit-transform: translateX(-100%);}
+}
+
+@-moz-keyframes drift {
+0% {
+  opacity: 1;-moz-transform: translateX(-10px);
+  }
+  50% {
+    opacity: 0.75;
+      }
+
+100% {
+  opacity: 0.25;-moz-transform: translateX(-100%);
+  }
+}
+
+@-o-keyframes drift {
+
+0% {
+  opacity: 1;-o-transform: translateX(-10px);
+  }
+
+  50% {
+    opacity: 0.75;
+      }
+
+100% {
+  opacity: 0.25;-o-transform: translateX(-100%);
+  }
+}
+
+@-ms-keyframes drift {
+0% {
+  opacity: 1;-ms-transform: translateX(-10px);
+  }
+  50% {
+    opacity: 0.75;
+      }
+
+100% {
+  opacity: 0.25;-ms-transform: translateX(-100%);
+  }
+}
+
+@keyframes drift {
+  0% {
+    opacity: 1;transform: translateX(-10px);
+  }
+  50% {
+    opacity: 0.75;
+      }
+  100% {
+    opacity: 0.25;transform: translateX(-100%);
+  }
+}
+
+.svg-sakura .petal {
+  -webkit-animation: petalfall 7s infinite ease-in;
+  -moz-animation:petalfall 7s infinite ease-in;
+  -ms-animation:petalfall 7s infinite ease-in;
+  animation:petalfall 7s infinite ease-in;
+}
+
+@-webkit-keyframes petalfall {
+  0% { fill-opacity: 1; }
+  25% { fill-opacity: 0.75; }
+  50% { -webkit-transform: translateX(-50px); fill-opacity: 0; }
+  100% { fill-opacity: 0 }
+}
+
+@-moz-keyframes petalfall {
+  0% { fill-opacity: 1; }
+  25% { fill-opacity: 0.75; }
+  50% { -webkit-transform: translateX(-50px); fill-opacity: 0; }
+  100% { fill-opacity: 0 }
+}
+
+@-o-keyframes petalfall {
+  0% { fill-opacity: 1; }
+  25% { fill-opacity: 0.75; }
+  50% { -webkit-transform: translateX(-50px); fill-opacity: 0; }
+  100% { fill-opacity: 0 }
+}
+
+@-ms-keyframes petalfall {
+  0% { fill-opacity: 1; }
+  25% { fill-opacity: 0.75; }
+  50% { -webkit-transform: translateX(-50px); fill-opacity: 0; }
+  100% { fill-opacity: 0 }
+}
+
+@keyframes petalfall {
+  0% { fill-opacity: 1; }
+  25% { transform: translateY (25px); fill-opacity: 0.75; }
+  50% { transform: translateX(-50px); fill-opacity: 0; }
+  100% { fill-opacity: 0 }
+}
+
+/* This will create an animation delay for every single blossom */
+.svg-sakura .petal:nth-child(1) { animation-delay: 0s; }
+.svg-sakura .petal:nth-child(2) { animation-delay: 0.5s; }
+.svg-sakura .petal:nth-child(3) { animation-delay: 1s; }
+.svg-sakura .petal:nth-child(4) { animation-delay: 1.5s; }
+.svg-sakura .petal:nth-child(5) { animation-delay: 2s; }
+.svg-sakura .petal:nth-child(6) { animation-delay: 2.5s; }
+.svg-sakura .petal:nth-child(7) { animation-delay: 3s; }
+.svg-sakura .petal:nth-child(8) { animation-delay: 3.5s; }
+.svg-sakura .petal:nth-child(9) { animation-delay: 4.0s; }
+.svg-sakura .petal:nth-child(10) { animation-delay: 4.5s; }
+.svg-sakura .petal:nth-child(11) { animation-delay: 5.0s; }
+.svg-sakura .petal:nth-child(12) { animation-delay: 5.5s; }
+
+/* This will create an animation delay for every single blossom, for Safari and Opera */
+.svg-sakura .petal:nth-child(1) { -webkit-animation-delay: 0s; }
+.svg-sakura .petal:nth-child(2) { -webkit-animation-delay: 0.5s; }
+.svg-sakura .petal:nth-child(3) { -webkit-animation-delay: 1s; }
+.svg-sakura .petal:nth-child(4) { -webkit-animation-delay: 1.5s; }
+.svg-sakura .petal:nth-child(5) { -webkit-animation-delay: 2s; }
+.svg-sakura .petal:nth-child(6) { -webkit-animation-delay: 2.5s; }
+.svg-sakura .petal:nth-child(7) { -webkit-animation-delay: 3s; }
+.svg-sakura .petal:nth-child(8) { -webkit-animation-delay: 3.5s; }
+.svg-sakura .petal:nth-child(9) { -webkit-animation-delay: 4.0s; }
+.svg-sakura .petal:nth-child(10) { -webkit-animation-delay: 4.5s; }
+.svg-sakura .petal:nth-child(11) { -webkit-animation-delay: 5.0s; }
+.svg-sakura .petal:nth-child(12) { -webkit-animation-delay: 5.5s; }
+
+
+/*old bg css codes*/
+/*props for svg bg image */
+.st0 {
+  fill:#14d2d5
+}
+
+.st1 {
+  fill:#c1215f
+}
+
+.st2 {
+  fill:#5CB85C
+}
+
+.st3 {
+  fill:#98a0a4
+}
+
+.st4 {
+  fill:#6a6b6b
+}
+
+.st5 {
+  fill:#fff
+}
+
+.st6 {
+  fill:#f9f9f9
+}
+
+.st7 {
+ fill:#f078f4
+}
+
+.st8 {
+ fill:#f9f946
+}
+
+.st9 {
+ fill:#f9b0ff
+}
+
+.st10,.st11,.st12 {
+  fill:#f078f4
+}
+
+.st13,.st14,.st15,.st16,.st17 {
+  fill:#f9f946
+}
+
+.st18,.st19 {
+  fill:#f078f4
+}
+
+.st20 {
+  fill:#050505
+}
+
+.st21 {
+  fill:#7ac043
+}
+
+.st22,.st23,.st24,.st25,.st26 {
+  fill:#f078f4;
+  stroke:#f9b0ff;
+  stroke-width:.1033;
+  stroke-miterlimit:10
+}
+
+.st23,.st24,.st25,.st26 {
+  stroke-width:5.845223e-2
+}
+
+.st24,.st25,.st26 {
+  stroke-width:5.549387e-2
+}
+
+.st25,.st26 {
+  stroke-width:7.508805e-2
+}
+
+.st26 {
+  stroke-width:7.167563e-2
+}
+
+.st27,.st28,.st29,.st30,.st31,.st32,.st33,.st34,.st35 {
+  fill:#f078f4;stroke:#f9b0ff;stroke-width:6.373883e-2;stroke-miterlimit:10
+}
+
+.st28,.st29,.st30,.st31,.st32,.st33,.st34,.st35 {
+  stroke-width:7.171731e-2
+}
+
+.st29,.st30,.st31,.st32,.st33,.st34,.st35 {
+  stroke-width:5.925376e-2
+}
+
+.st30,.st31,.st32,.st33,.st34,.st35 {
+  stroke-width:5.274667e-2
+}
+
+.st31,.st32,.st33,.st34,.st35 {
+  stroke-width:5.07069e-2
+}
+
+.st32,.st33,.st34,.st35 {
+  stroke-width:7.280503e-2
+}
+
+.st33,.st34,.st35 {
+  stroke-width:7.241028e-2
+}
+
+.st34,.st35 {
+  fill:#f9f946;stroke-width:7.826569e-2
+}
+
+.st35 {
+  stroke-width:6.418672e-2
+}
+
+.st36,.st37,.st38,.st39,.st40,.st41,.st42,.st43,.st44 {
+  fill:#f9f946;stroke:#f9b0ff;stroke-width:6.76967e-2;stroke-miterlimit:10
+}
+
+.st37,.st38,.st39,.st40,.st41,.st42,.st43,.st44 {
+  stroke-width:.1243
+}
+
+.st38,.st39,.st40,.st41,.st42,.st43,.st44 {
+  stroke-width:6.91906e-2
+}
+
+.st39,.st40,.st41,.st42,.st43,.st44 {
+  stroke-width:9.079882e-2
+}
+
+.st40,.st41,.st42,.st43,.st44 {
+  stroke-width:6.45097e-2
+}
+
+.st41,.st42,.st43,.st44 {
+  stroke-width:8.865573e-2
+}
+
+.st42,.st43,.st44 {
+  stroke-width:6.313623e-2
+}
+
+.st43,.st44 {
+  stroke-width:9.678175e-2
+}
+
+.st44 {
+  stroke-width:6.932648e-2
+}
+
+.st45,.st46,.st47,.st48,.st49,.st50,.st51,.st52,.st53 {
+  fill:#f9f946;
+  stroke:#f9b0ff;
+  stroke-width:8.299019e-2;
+  stroke-miterlimit:10
+}
+
+.st46,.st47,.st48,.st49,.st50,.st51,.st52,.st53 {
+  stroke-width:5.782482e-2
+}
+
+.st47,.st48,.st49,.st50,.st51,.st52,.st53 {
+  stroke-width:8.795142e-2
+}
+
+.st48,.st49,.st50,.st51,.st52,.st53 {
+  stroke-width:5.582425e-2
+}
+
+.st49,.st50,.st51,.st52,.st53 {
+  stroke-width:7.041004e-2
+}
+
+.st50,.st51,.st52,.st53 {
+  fill:#f078f4;stroke-width:9.256468e-2
+}
+
+.st51,.st52,.st53 {
+  stroke-width:5.761964e-2
+}
+
+.st52,.st53 {
+  fill:#f9f946;stroke-width:6.864597e-2
+}
+
+.st53 {
+  stroke-width:.1043
+}
+
+.st54,.st55,.st56,.st57,.st58,.st59,.st60,.st61 {
+  fill:#f078f4;
+  stroke:#f9b0ff;
+  stroke-width:6.068968e-2;
+  stroke-miterlimit:10
+}
+
+.st55,.st56,.st57,.st58,.st59,.st60,.st61 {
+  stroke-width:4.775653e-2
+}
+.st56,.st57,.st58,.st59,.st60,.st61 {
+  stroke-width:4.052805e-2
+}
+
+.st57,.st58,.st59,.st60,.st61 {
+  fill:#f9f946;
+  stroke-width:4.185602e-2
+}
+
+.st58,.st59,.st60,.st61 {
+  stroke-width:5.614851e-2
+}
+
+.st59,.st60,.st61 {
+  fill:#f078f4;
+  stroke-width:4.448918e-2
+}
+
+.st60,.st61 {
+  fill:#f9f946;
+  stroke-width:5.121582e-2
+}
+
+.st61 {
+  fill:#f078f4;
+  stroke-width:3.618896e-2
+}
+
+.st62,.st63,.st64,.st65,.st66,.st67,.st68 {
+  fill:#f9f946;
+  stroke:#f9b0ff;
+  stroke-width:8.047333e-2;
+  stroke-miterlimit:10
+}
+
+.st63,.st64,.st65,.st66,.st67,.st68 {
+  stroke-width:6.534137e-2
+}
+
+.st64,.st65,.st66,.st67,.st68 {
+  fill:#f078f4;
+  stroke-width:5.183289e-2
+}
+
+.st65,.st66,.st67,.st68 {
+  stroke-width:4.331146e-2
+}
+
+.st66,.st67,.st68 {
+  stroke-width:7.586213e-2
+}
+
+.st67,.st68 {
+  stroke-width:3.851693e-2
+}
+
+.st68 {
+  stroke-width:7.534631e-2
+}
+
+.st69 {
+  fill:#59c9ef
+}
+
+.st70 {
+  fill:#dd4376
+}
+
+.st71 {
+  fill:#c4c4c4
+}
+
+.st72 {
+  fill:#f94679
+}
+
+.st73 {
+  fill:#938f90
+}
+
+.st74 {
+  fill:#f9d4a7
+}
+
+.st75 {
+  fill:#494642
+}
+
+.st76 {
+  fill:#cbf7f7
+}
+
+.st77 {
+  fill:#3a3aef
+}
+
+.st78 {
+  fill:#1362b7
+}
+
+.st79 {
+  fill:#f9f
+}
+
+.st80 {
+  font-family:'Orbitron-Regular';
+}
+
+.st81 {
+  font-size:200px
+}
+
+.st83 {
+  fill:#ec7d29
+}
+
+/* Learn More Button */
+
+.st703{fill:#CD1076;}
+.st704{fill:none;}
+.st705{fill:#FFFDFE;}
+.st706{font-family:'HelveticaNeue';}
+.st707{font-size:70px;}
+
+#Learn_button:hover {
+  cursor: pointer;
+}

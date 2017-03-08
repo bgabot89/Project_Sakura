@@ -7,31 +7,29 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-      <nav className="navbar navbar-default" id="header">
-      <div className="container">
-        <div className="navbar-header page-scroll">
-          <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNav" aria-expanded="false">
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-          </button>
-          <Link to="/" className="navbar-brand"><img id="proj-logo" className="img-responsive" alt="Responsive image" src="../../images/logo.png"/></Link>
+      <nav className="navbar navbar-inverse">
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span className="sr-only">Toggle navigation</span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+           </button>
+            <Link to="/">
+              <img className="logo-saku" alt="Brand" src="images/logo_saku.png"/>
+            </Link>
+          </div>
+          <div className="navbar-collapse collapse">
+              <ul className="nav navbar-nav pull-right">
+              <li className="navbar-list"><Link to="/map">Events</Link></li>
+              <li className="navbar-list"><Link to="/songs">Music</Link></li>
+            </ul>
+        </div>
       </div>
-      <div id="myNav" className="navbar-collapse collapse">
-  			<ul className="nav navbar-nav navbar-right">
-  				<li className="page-scroll">
-  					<Link to="/map">Events</Link>
-  				</li>
-  				<li className="page-scroll">
-  					<Link to="/songs">Music</Link>
-  				</li>
-  			</ul>
-    	</div>
-      </div>
-    </nav>
+      </nav>
     {this.props.children || <Home/>}
-  </div>
+    </div>
     );
   }
 }
