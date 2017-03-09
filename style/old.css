@@ -1,4 +1,8 @@
 /*old css code for bg*/
+@font-face{
+  font-family: 'Orbitron-Regular';
+  src: url('../text/Orbitron-Regular.ttf');
+}
 
 .girl {
   margin-top: -50px;

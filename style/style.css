@@ -1,12 +1,3 @@
-@font-face{
-  font-family: 'Orbitron-Regular';
-  src: url('../text/Orbitron-Regular.ttf');
-}
-
-p, p1 {
-  font-size: 16px;
-}
-
 #about {
   margin:-30px 0px 0px 0px;
   background-color:#e699ff;
@@ -50,21 +41,12 @@ p, p1 {
   cursor: pointer;
 }
 
-h1 {
-  padding:100px 0px 50px 0px;
-}
-
 #about-artist {
   padding: 25px 0px 50px 0px;
 }
 
 #now-playing {
   padding-bottom: -50px;
-}
-
-h2 {
-  padding:100px 0px 0px 0px;
-  text-align: center;
 }
 
 #city-description {

@@ -1,9 +1,15 @@
 /*Main CSS*/
 
-/*Global css implementations*/
-@font-face{
+/******Global CSS implementations******/
+
+@font-face {
   font-family: 'MyriadPro-Regular';
   src: url('../text/MyriadPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url('../text/avenir-roman.ttf');
 }
 
 * {
@@ -20,7 +26,33 @@ body {
   background-color: pink;
 }
 
+h1 {
+  padding:100px 0px 50px 0px;
+}
+
+h2 {
+  padding:100px 0px 50px 0px;
+  margin-top: -10px!important;
+  font-size: 50px!important;
+}
+
+h3 {
+  margin-left: 10px;
+  font-family: Avenir-Roman!important;
+}
+
+h4 {
+  margin-left: 10px;
+  font-size: 18px!important;
+  font-family: Avenir-Roman!important;
+}
+
+p, p1 {
+  font-size: 16px;
+}
+
 /******* Navbar *********/
+
 .navbar {
   padding: 15px;
   margin-bottom: -15px;
@@ -44,7 +76,7 @@ body {
 
 /******* SVG Background for Landing Page CSS *********/
 
-/*code for bg, imported from illustrator*/
+/*CSS code for bg, imported from illustrator*/
 .st0{fill:#48ACAF;}
 .st1{fill:#72397C;}
 .st2{fill:#EFA7FC;}
@@ -380,3 +412,73 @@ header {
   height: 850px;
   width: 100%;
 }*/
+
+/******* Map CSS *********/
+
+.event-icon {
+  width: 150px;
+}
+
+/******* Event Card CSS *********/
+.event-preview-card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 500px;
+  margin: 6rem;
+  position: relative;
+  width: 300px;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+  0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.event-preview-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
+}
+
+.image-preview {
+  width: 300px;
+}
+
+.events-selector {
+  position: relative;
+  background-color: pink;
+}
+
+.learn-more-button {
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 23px;
+  border: 3px solid #2E3192;
+  background-color: #00AEEF;
+  width: 170px;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+.learn-more-text {
+  font-family: Avenir-Roman;
+  color: white;
+  font-size: 18px;
+}
+
+
+/******* Footer CSS *********/
+footer {
+  min-height: 100%;
+  background-color: black;
+}
+
+.footer-text {
+  margin-top: 50px;
+  font-size: 28px;
+  color: white;
+}
+
+.copyright-text {
+  color: white;
+  font-size: 30px;
+}
