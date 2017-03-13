@@ -155,6 +155,15 @@ p, p1 {
   animation:petalfall 7s infinite ease-in;
 }
 
+.svg-sakura .petal-fall:nth-child(1) { animation-delay: 0s; }
+.svg-sakura .petal-fall:nth-child(2) { animation-delay: 0.5s; }
+.svg-sakura .petal-fall:nth-child(3) { animation-delay: 1s; }
+.svg-sakura .petal-fall:nth-child(4) { animation-delay: 1.5s; }
+.svg-sakura .petal-fall:nth-child(5) { animation-delay: 2s; }
+.svg-sakura .petal-fall:nth-child(6) { animation-delay: 2.5s; }
+.svg-sakura .petal-fall:nth-child(7) { animation-delay: 3s; }
+.svg-sakura .petal-fall:nth-child(8) { animation-delay: 3.5s; }
+
 @keyframes petalfall {
   0% { opacity: 1; }
   10% { transform: translateY(5px) translateX(10px); }
@@ -197,16 +206,20 @@ p, p1 {
   100% { fill-opacity: 0 }
 }
 
+
+.svg-sakura #toro {
+  -webkit-animation: shake 2s infinite ease-in;
+  -moz-animation:shake 2s infinite ease-in;
+  -ms-animation:shake 2s infinite ease-in;
+  animation:shake 2s infinite ease-in;
+}
+
+
+@keyframes shake {
+  50% { transform: rotate(1deg) }
+  75% { transform: rotate(-1deg) }
+}
 /******* Additional SVG Text for Landing Page CSS *********/
-
-#buttonEvents:hover {
-  cursor: pointer;
-}
-
-#buttonEvents:hover #totoro {
-  visibility: visible;
-  opacity: 1;
-}
 
 .logo-saku {
   margin-left: 20px;
@@ -429,14 +442,9 @@ header {
   position: relative;
   width: 300px;
 
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),
-  0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0px 14px 28px rgba(0,0,0,0.25),
+  0 10px 10px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.event-preview-card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  cursor: pointer;
 }
 
 .image-preview {
@@ -457,6 +465,12 @@ header {
   width: 170px;
   line-height: 40px;
   overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.learn-more-button:hover {
+  transform: scale(1.1);
 }
 
 .learn-more-text {
@@ -481,4 +495,168 @@ footer {
 .copyright-text {
   color: white;
   font-size: 30px;
+}
+
+/******* Map CSS *********/
+
+.Map {
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.map {
+  width: 50%;
+  height: 0;
+  margin: 0 auto;
+  padding-top: 50%;
+  position: relative;
+}
+
+#map_wrapper {
+  margin-top: 100px;
+}
+
+#map_wrapper {
+  margin-top: 100px;
+}
+
+/******* Genre Bg CSS *********/
+
+.genre-bg {
+  width: 1000px;
+  height: 330px;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display:inline-block;
+  margin: 0 1em 1em 0;
+  position: relative;
+
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 1000px;
+  height: 330px;
+  left: 0;
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+
+
+/* music icon actions */
+
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+
+/*genre bg css*/
+
+
+/* music icon actions */
+
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+
+
+/* soundcloud player css */
+.sb-soundplayer-progress-container {
+    background-color: #DDD;
+    width: 75%;
+    height: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sb-soundplayer-progress-inner {
+    background-color: #FC561E;
+    height: 100%;
+    -webkit-transition: width .2s ease-in;
+            transition: width .2s ease-in;
+}
+
+.player-box {
+  margin-top: 10px;
+  border: solid black 2px;
+  background-color: #cccccc;
 }
