@@ -7,6 +7,7 @@ import HomeComponent from './components/home';
 import Genres from './components/genres';
 import Anime from './components/anime';
 import Jrock from './components/jrock';
+import Jelectro from './components/jelectro';
 import EventPage from './components/eventPage';
 import AmiYumi from './components/amiYumi';
 import CommentsIndex from './components/comments_index';
@@ -22,6 +23,7 @@ export default (
       <Route path="/songs" component={Genres}/>
       <Route path="/anime" component={Anime}/>
       <Route path="/jrock" component={Jrock}/>
+      <Route path="/jelectro" component={Jelectro}/>
       <Route path="/amiyumi" component={AmiYumi}/>
       <Route path="/comments" component={CommentsIndex}/>
       <Route path="comments/new" component={CommentsNew}/>

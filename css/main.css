@@ -653,6 +653,16 @@ footer {
     height: 300px;
 }
 
+#j-electro-bg {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('../../images/j-electro-bg.png');
+    height: 300px;
+}
+
 .song-name {
   color: white;
 }

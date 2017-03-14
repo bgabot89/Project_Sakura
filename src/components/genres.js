@@ -129,7 +129,7 @@ export default class Genres extends React.Component {
 
 
         <div className="col-md-4">
-          <Link to="/anime">
+          <Link to="/jelectro">
           <svg className="genre-icon" id="j-electro" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1567.2 1230.1">
             <g className="music-icon">
             <circle className="st100" cx="768" cy="615.1" r="547.5" id="icon_x5F_circle"/>
@@ -186,7 +186,7 @@ export default class Genres extends React.Component {
         </Link>
         <p className="genre-info"> J-Electro</p>
         </div>
-        
+
       </div>
       );
   }

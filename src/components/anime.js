@@ -3,7 +3,7 @@ import { SoundPlayerContainer } from 'react-soundplayer/addons';
 import { PlayButton, PrevButton, NextButton, Progress, Timer } from 'react-soundplayer/components';
 
 const clientId = 'ced46db7be1e678d369f554b27aded8a';
-const yamada = 'https://soundcloud.com/racheeeeello/kuchizuke-diamond-weaver-yamada-kun-to-7-nin-no-majo-op-full';
+const lieinapril = 'https://soundcloud.com/jctraya/shigatsu-op-hikaru-nara';
 
 const testBg = '../../images/j-pop-bg.png';
 
@@ -48,7 +48,7 @@ class Anime extends Component {
 class AnimePlayer extends React.Component {
     render() {
         return (
-            <SoundPlayerContainer resolveUrl={yamada} clientId={clientId}>
+            <SoundPlayerContainer resolveUrl={lieinapril} clientId={clientId}>
                 <Anime />
             </SoundPlayerContainer>
         );
