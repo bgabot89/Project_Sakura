@@ -25,7 +25,7 @@ const events = [
     'image': '../images/j-pop-summit_event.png',
     'artist': 'Various',
     'rating': '',
-    'date':'04/07/17',
+    'date':'09/09/17 - 09/10/17',
     'genre': 'jrock',
     'description': 'Listen to various j-pop artists in this special event in SF',
   },

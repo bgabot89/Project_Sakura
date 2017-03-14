@@ -215,10 +215,10 @@ p, p1 {
 }
 
 
-@keyframes shake {
+/*@keyframes shake {
   50% { transform: rotate(1deg) }
   75% { transform: rotate(-1deg) }
-}
+}*/
 /******* Additional SVG Text for Landing Page CSS *********/
 
 .logo-saku {
@@ -520,56 +520,6 @@ footer {
   margin-top: 100px;
 }
 
-/******* Genre Bg CSS *********/
-
-.genre-bg {
-  width: 1000px;
-  height: 330px;
-}
-
-ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-ul.img-list li {
-  display:inline-block;
-  margin: 0 1em 1em 0;
-  position: relative;
-
-}
-
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  width: 1000px;
-  height: 330px;
-  left: 0;
-  font-size: 5em;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-}
-
-
 
 /* music icon actions */
 
@@ -603,7 +553,15 @@ ul.img-list li:hover span.text-content {
   }
 }
 
-/*genre bg css*/
+/*genre selection css*/
+.genre-icon {
+  width: 20em;
+}
+
+.genre-info {
+  margin-right: 10px;
+}
+
 
 
 /* music icon actions */
@@ -641,11 +599,12 @@ ul.img-list li:hover span.text-content {
 
 /* soundcloud player css */
 .sb-soundplayer-progress-container {
-    background-color: #DDD;
-    width: 75%;
+    background-color: rgba(0,0,0,.25);;
+    width: 90%;
     height: 10px;
     overflow: hidden;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .sb-soundplayer-progress-inner {
@@ -659,4 +618,46 @@ ul.img-list li:hover span.text-content {
   margin-top: 10px;
   border: solid black 2px;
   background-color: #cccccc;
+}
+
+.sb-soundplayer-play-icon {
+  width: 1em;
+  height: 1em;
+  fill: orange;
+}
+
+.button-transparent {
+  background-color: Transparent;
+  border: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+#j-pop-bg {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('../../images/j-pop-bg.png');
+    height: 300px;
+}
+
+#j-rock-bg {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('../../images/j-rock-bg.png');
+    height: 300px;
+}
+
+.song-name {
+  color: white;
+}
+
+.sb-soundplayer-progress-container {
+  display: inline-block;
+  margin-left: 20px;
 }
