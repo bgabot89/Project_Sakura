@@ -1,6 +1,9 @@
 {
   "name": "project_sakura_v2",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.2.0"
+  }
   "description": "Revamped Version of Old Project Sakura Page, now with Webpack Integration and ES6 support",
   "main": "index.js",
   "scripts": {
