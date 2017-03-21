@@ -20,3 +20,5 @@ Project Sakura is a yelp-like web application that helps users find japanese mus
 
 #Bugs
 - Link tag from react-router won't work in Google Maps API. This is a known error with the React Google Maps Package installed and will hopefully be fixed in the near future.
+- Logo breaks when reloading page on event Page or clicking on href request
+- Music does not work on safari (known server-side issue for soundcloud API)

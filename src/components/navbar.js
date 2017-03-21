@@ -4,6 +4,16 @@ import { Link } from 'react-router';
 import Home from './home';
 
 export default class Navbar extends Component {
+
+  /* constructor(props) {
+    super(props);
+    this.state = {active: false};
+  }
+
+  click() {
+    this.setState{{active: true}};
+  }*/
+
   render() {
     return (
       <div>

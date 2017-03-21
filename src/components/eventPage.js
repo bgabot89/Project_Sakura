@@ -14,6 +14,7 @@ export default class EventPage extends React.Component {
           <div className="event-container">
             <img src={`/images/${event.image}`}/>
             <h2 className="name">{event.name}</h2>
+            <button> <Link to="/comments"> Post a Comment</Link></button>
           </div>
         </div>
     )
