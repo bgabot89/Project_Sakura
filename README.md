@@ -1,7 +1,7 @@
 # Project_Sakura
 Revamped Version of Old Project Sakura Page, now with Webpack Integration and ES6 support
 
-Github link to old app: https://github.com/bgabot89/ProjectSakura
+Link to App: http://projectsaku.herokuapp.com/
 
 #About
 Project Sakura is a yelp-like web application that helps users find japanese music events in the area. Currently, the app only shows events from the SF Bay Area but will slowly add more cities and possibly other countries as I continue to develop the application.
