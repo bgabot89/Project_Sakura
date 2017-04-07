@@ -10,7 +10,7 @@ export default class EventPage extends React.Component {
       return <div> not found! </div>
     }
     return (
-        <div className="event text-center">
+        <div className="transition-item event-page text-center">
           <div className="event-container">
             <img className="event-image" src={`/images/${event.image}`}/>
             <h2 className="name">{event.name}</h2>

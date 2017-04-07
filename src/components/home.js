@@ -4,8 +4,11 @@ import { Link } from 'react-router';
 import EventPreview from './events_preview';
 import events from '../data/events';
 
-export default () => {
-  return <div className="svg-sakura">
+// export default () => {
+export default class Home extends React.Component {
+render () {
+  return (
+  <div className="transition-item svg-sakura">
     {/* SVG Background */}
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
        viewBox="0 0 1093.2 500">
@@ -399,4 +402,6 @@ export default () => {
         <div className="copyright-text">Copyright 2017, All rights reserved</div>
       </footer>
     </div>
+)
+}
 };

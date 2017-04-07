@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router';
 import Home from './home';
+import PageTransition from 'react-router-page-transition';
 
 export default class Navbar extends Component {
 
@@ -38,7 +39,9 @@ export default class Navbar extends Component {
         </div>
       </div>
       </nav>
+      <PageTransition>
     {this.props.children || <Home/>}
+    </PageTransition>
     </div>
     );
   }
