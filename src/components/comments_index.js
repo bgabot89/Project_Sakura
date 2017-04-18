@@ -27,15 +27,17 @@ class CommentsIndex extends Component {
   render () {
     return (
       <div>
-        <div className="text-xs-right">
+      <h3 id="posts-header" className="text-center">Posts</h3>
+        <div id="post-button" className="text-center">
           <Link to="/comments/new" className="btn btn-primary">
             Add a post
           </Link>
         </div>
-      <h3>Posts</h3>
+      <div className="container">
       <ul className="list-group">
         {this.renderPosts()}
       </ul>
+      </div>
     </div>
     );
   }

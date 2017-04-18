@@ -29,15 +29,19 @@ class CommentsShow extends Component {
     }
 
     return (
-      <div className="post-info">
-        <Link to="/comments">Back to Index</Link>
-        <button className="btn-danger"
+      <div>
+        <div className="text-center index-delete-section">
+        <Link className="comment-link" to="/comments">Back to Index</Link>
+        <button className="btn btn-danger"
           onClick={this.onDeleteClick.bind(this)}>
           Delete Post
         </button>
-        <h3>{comment.title}</h3>
-        <h6>Categories: {comment.categories}</h6>
-        <p>{comment.content}</p>
+        </div>
+        <div className="text-center container post-info">
+          <h3>{comment.title}</h3>
+          <h6>Categories: {comment.categories}</h6>
+          <p>{comment.content}</p>
+        </div>
       </div>
     );
   }

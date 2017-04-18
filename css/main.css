@@ -625,9 +625,37 @@ footer {
 }
 
 .comment-text {
-font-family: Avenir-Roman;
-color: white;
-font-size: 18px;
+  font-family: Avenir-Roman;
+  color: white;
+  font-size: 18px;
+}
+
+.new-comments-form {
+  background-color: #d3d3d3;
+  border-style: solid;
+  border-color: 2px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#posts-header {
+  margin-bottom: 20px;
+}
+
+#post-button {
+  margin-bottom: 40px;
+}
+
+.post-info {
+    background-color: #d3d3d3;
+    border-style: solid;
+    border-color: 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.comment-link {
+  margin-right: 50px;
 }
 
 /* music icon actions */
@@ -670,8 +698,6 @@ font-size: 18px;
 .genre-info {
   margin-right: 10px;
 }
-
-
 
 /* music icon actions */
 
