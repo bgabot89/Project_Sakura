@@ -61,7 +61,6 @@ p, p1 {
 
 .navbar {
   padding: 15px;
-  margin-bottom: -15px;
 }
 
 .navbar-inverse {
@@ -352,7 +351,7 @@ p, p1 {
         display: inline-block;
         text-align: center;
         cursor: pointer;
-        box-shadow: inset 500px 0 0 0 grey;
+        box-shadow: inset 500px 0px 0 0 grey;
     	  -webkit-transition: all ease 1.5s;
     	  -moz-transition: all ease 1.5s;
     	  transition: all ease 1.5s;
@@ -362,45 +361,31 @@ p, p1 {
         color: white;
       }
 
-      .black-bg {
-        position: absolute;
-        top: 150px;
-        left: 40px;
-        background: black;
-        width: 800px;
-        height: 250px;
-        background-color:rgba(0,0,0,0.5);
-        -webkit-transition: left 1.5s;
-        -moz-transition: left 1.5s;
-        transition: left 0.5s;
-      }
-
       #jap-title {
-        z-index: 999;
+        z-index: 0;
         position: absolute;
-        top: -100px;
-        left: 29px;
-        font-family: 'OpenSansBold' sans-serif;
-        text-transform: uppercase;
+        top: -20px;
+        left: 360px;
+        font-family: 'MrEavesModOT-Reg';
         color: white;
-        font-size: 40px;
+        font-size: 45px;
       }
   }
 
-/*optimizing for large + big tablet screens for text background*/
+/*optimizing between medium-large screens*/
 
-@media (max-width: 1200px){
+@media (max-width: 1400px) {
   .button_sliding_bg {
       z-index: 999;
       position: absolute;
-      top: 80px;
-      left: 20px;
+      top: 120px;
+      left: 450px;
       color: white;
-      padding: 20px 50px;
+      padding: 20px 60px;
       margin: 25px;
       font-family: 'OpenSansBold', sans-serif;
       border: 3px solid white;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -408,7 +393,7 @@ p, p1 {
       display: inline-block;
       text-align: center;
       cursor: pointer;
-      box-shadow: inset 0 0 0 0 #15d0cb;
+      box-shadow: inset 500px 0px 0 0 grey;
       -webkit-transition: all ease 1.5s;
       -moz-transition: all ease 1.5s;
       transition: all ease 1.5s;
@@ -417,40 +402,24 @@ p, p1 {
       box-shadow: inset 500px 0px 0 0 #15d0cb;
       color: white;
     }
-
-    .black-bg {
-      position: absolute;
-      top: 150px;
-      left: 40px;
-      background: black;
-      width: 700px;
-      height: 200px;
-      background-color:rgba(0,0,0,0.5);
-      -webkit-transition: left 1.5s;
-      -moz-transition: left 1.5s;
-      transition: left 0.5s;
-    }
-
     #jap-title {
-      z-index: 999;
+      z-index: 0;
       position: absolute;
-      top: -100px;
-      left: 28px;
-      font-family: 'OpenSansBold' sans-serif;
-      text-transform: uppercase;
+      top: -30px;
+      left: 370px;
+      font-family: 'MrEavesModOT-Reg';
       color: white;
       font-size: 35px;
     }
 }
 
-/*optimizing for large phones + small phones*/
-
-@media (max-width: 800px){
+/*optimizing for large + big tablet screens for text background*/
+@media (max-width: 1200px){
   .button_sliding_bg {
       z-index: 999;
       position: absolute;
-      top: 60px;
-      left: 15px;
+      top: 100px;
+      left: 380px;
       color: white;
       padding: 10px 30px;
       margin: 25px;
@@ -464,7 +433,7 @@ p, p1 {
       display: inline-block;
       text-align: center;
       cursor: pointer;
-      box-shadow: inset 0 0 0 0 #15d0cb;
+      box-shadow: inset 500px 0px 0 0 grey;
       -webkit-transition: all ease 1.5s;
       -moz-transition: all ease 1.5s;
       transition: all ease 1.5s;
@@ -473,32 +442,141 @@ p, p1 {
       box-shadow: inset 500px 0px 0 0 #15d0cb;
       color: white;
     }
-
-    .black-bg {
-      position: absolute;
-      top: 150px;
-      left: 40px;
-      background: black;
-      width: 500px;
-      height: 150px;
-      background-color:rgba(0,0,0,0.5);
-      -webkit-transition: left 1.5s;
-      -moz-transition: left 1.5s;
-      transition: left 0.5s;
-    }
-
     #jap-title {
-      z-index: 999;
+      z-index: 0;
       position: absolute;
-      top: -100px;
-      left: 25px;
-      font-family: 'OpenSansBold' sans-serif;
-      text-transform: uppercase;
+      top: -50px;
+      left: 250px;
+      font-family: 'MrEavesModOT-Reg';
       color: white;
-      font-size: 25px;
+      font-size: 35px;
     }
 }
 
+/*medium-large*/
+@media (max-width: 950px){
+  .button_sliding_bg {
+      z-index: 999;
+      position: absolute;
+      top: 100px;
+      left: 38px;
+      color: white;
+      padding: 20px 40px;
+      margin: 25px;
+      font-family: 'OpenSansBold', sans-serif;
+      border: 3px solid white;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: 2px;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: inset 500px 0px 0 0 grey;
+      -webkit-transition: all ease 1.5s;
+      -moz-transition: all ease 1.5s;
+      transition: all ease 1.5s;
+  }
+  .button_sliding_bg:hover {
+      box-shadow: inset 500px 0px 0 0 #15d0cb;
+      color: white;
+    }
+    #jap-title {
+      z-index: 0;
+      position: absolute;
+      top: -50px;
+      left: 61px;
+      font-family: 'MrEavesModOT-Reg';
+      color: white;
+      font-size: 35px;
+    }
+}
+/*optimizing for large phones*/
+
+@media (max-width: 800px){
+  .button_sliding_bg {
+      z-index: 999;
+      position: absolute;
+      top: 90px;
+      left: 25px;
+      color: white;
+      padding: 10px 30px;
+      margin: 25px;
+      font-family: 'OpenSansBold', sans-serif;
+      border: 3px solid white;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: 2px;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: inset 500px 0 0 0 #15d0cb;
+      -webkit-transition: all ease 1.5s;
+      -moz-transition: all ease 1.5s;
+      transition: all ease 1.5s;
+  }
+
+    #jap-title {
+      z-index: 0;
+      position: absolute;
+      top: -50px;
+      left: 48px;
+      font-family: 'MrEavesModOT-Reg';
+      color: white;
+      font-size: 20px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+}
+
+/*optimizing for smaller phones*/
+
+@media (max-width: 510px){
+  .button_sliding_bg {
+      z-index: 999;
+      position: absolute;
+      top: 50px;
+      left: 0px;
+      color: white;
+      padding: 10px 30px;
+      margin: 25px;
+      font-family: 'OpenSansBold', sans-serif;
+      border: 3px solid white;
+      font-size: 8px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: 2px;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: inset 500px 0 0 0 #15d0cb;
+      -webkit-transition: all ease 1.5s;
+      -moz-transition: all ease 1.5s;
+      transition: all ease 1.5s;
+  }
+
+    #jap-title {
+      z-index: 0;
+      position: absolute;
+      top: -80px;
+      left: 28px;
+      font-family: 'MrEavesModOT-Reg';
+      color: white;
+      font-size: 20px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .navbar {
+      padding: 0;
+    }
+
+    .logo-saku {
+      width: 250px;
+    }
+
+}
 /*
 header {
   height: 850px;

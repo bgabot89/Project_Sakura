@@ -420,7 +420,6 @@ render () {
     <g id="shadow_x5F_tree_2_">
     	<polygon className="st55" points="404,449.9 344,471.5 432.4,471.9 452.4,448.5 	"/>
     </g>
-    <text transform="matrix(1 0 0 1 222.8998 109.0343)" className="st56"><tspan x="0" y="0" className="st9 st57 st58">Find japanese music events in the bay area</tspan><tspan x="608.1" y="0" className="st9 st59 st60">.</tspan></text>
     <g id="waves">
     	<g>
     		<path className="st61" d="M1004.5,417.1c-0.3-1.8-0.8-3.5-1.4-5.2c-0.3-0.8-0.6-1.7-1-2.5l-0.6-1.2c-0.2-0.4-0.4-0.8-0.6-1.2
@@ -592,12 +591,8 @@ render () {
     <div className="Conversion-button">
      <Link to="/map"><span className="button_sliding_bg">Explore Events</span></Link>
      </div>
-    {/* Black BG */}
 
-    {/*<div className="black-bg">
-      <h1 className="container" id="jap-title">Find the best japanese music <br/> events in the bay area.</h1>
-      <Link to="/map"><span className="button_sliding_bg">Explore Events</span></Link>
-    </div>*/}
+      <h1 id="jap-title">Find japanese music events in the bay area.</h1>
 
     {/* Event List */}
     <div className="events-selector text-center">
