@@ -47,4 +47,4 @@ function mapStateToProps(state) {
   return { comment: state.comments.post };
 }
 
-export default connect(mapStateToProps, { fetchComment, deleteComment })(CommentsShow);
+export default connect(mapStateToProps, { fetchComment, deleteComment }, null, { withRef: true} )(CommentsShow);

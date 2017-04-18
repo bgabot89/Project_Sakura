@@ -45,4 +45,4 @@ function mapStateToProps(state) {
   return { comments: state.comments.all };
 }
 
-export default connect(mapStateToProps, {fetchComments })(CommentsIndex);
+export default connect(mapStateToProps, {fetchComments}, null, {withRef: true })(CommentsIndex);

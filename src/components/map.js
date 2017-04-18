@@ -138,7 +138,7 @@ render() {
         </div>
       }
       containerElement={
-        <div className = "transition-item Map" style={{ width: '1000px' }} />
+        <div className = "Map" style={{ width: '1000px' }} />
         }
       mapElement={
         <div style={{ height: '600px' }} />
