@@ -1,4 +1,4 @@
-# Project_Sakura
+# Project Sakura
 Revamped Version of Old Project Sakura Page, now with Webpack Integration and ES6 support
 
 Link to App: http://projectsaku.herokuapp.com/
