@@ -71,7 +71,7 @@ p, p1 {
 .navbar-list {
   font-size: 25px;
   margin-left: 20px;
-  font-family: Avenir;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .navbar-nav {
@@ -332,7 +332,7 @@ p, p1 {
 }
 
 /*optimizing for x-large screens for text background*/
-  @media only screen and (min-width: 1200px){
+  @media only screen and (min-width: 1300px){
     .button_sliding_bg {
         z-index: 999;
         position: absolute;
@@ -365,53 +365,52 @@ p, p1 {
         z-index: 0;
         position: absolute;
         top: -20px;
-        left: 360px;
-        font-family: 'MrEavesModOT-Reg';
+        left: 310px;
+        font-family: 'Quicksand', sans-serif;
         color: white;
-        font-size: 45px;
+        font-size: 40px;
       }
   }
 
-/*optimizing between medium-large screens*/
+  @media (max-width: 1299px){
+    .button_sliding_bg {
+        z-index: 999;
+        position: absolute;
+        top: 140px;
+        left: 400px;
+        color: white;
+        padding: 15px 50px;
+        margin: 25px;
+        font-family: 'OpenSansBold', sans-serif;
+        border: 3px solid white;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 2px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: inset 500px 0px 0 0 grey;
+    	  -webkit-transition: all ease 1.5s;
+    	  -moz-transition: all ease 1.5s;
+    	  transition: all ease 1.5s;
+    }
+    .button_sliding_bg:hover {
+        box-shadow: inset 500px 0px 0 0 #15d0cb;
+        color: white;
+      }
 
-@media (max-width: 1400px) {
-  .button_sliding_bg {
-      z-index: 999;
-      position: absolute;
-      top: 120px;
-      left: 450px;
-      color: white;
-      padding: 20px 60px;
-      margin: 25px;
-      font-family: 'OpenSansBold', sans-serif;
-      border: 3px solid white;
-      font-size: 18px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      border-radius: 2px;
-      display: inline-block;
-      text-align: center;
-      cursor: pointer;
-      box-shadow: inset 500px 0px 0 0 grey;
-      -webkit-transition: all ease 1.5s;
-      -moz-transition: all ease 1.5s;
-      transition: all ease 1.5s;
+      #jap-title {
+        z-index: 0;
+        position: absolute;
+        top: -20px;
+        left: 200px;
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        font-size: 40px;
+      }
   }
-  .button_sliding_bg:hover {
-      box-shadow: inset 500px 0px 0 0 #15d0cb;
-      color: white;
-    }
-    #jap-title {
-      z-index: 0;
-      position: absolute;
-      top: -30px;
-      left: 370px;
-      font-family: 'MrEavesModOT-Reg';
-      color: white;
-      font-size: 35px;
-    }
-}
 
 /*optimizing for large + big tablet screens for text background*/
 @media (max-width: 1200px){
@@ -447,7 +446,7 @@ p, p1 {
       position: absolute;
       top: -50px;
       left: 250px;
-      font-family: 'MrEavesModOT-Reg';
+      font-family: 'Quicksand', sans-serif;
       color: white;
       font-size: 35px;
     }
@@ -487,9 +486,10 @@ p, p1 {
       position: absolute;
       top: -50px;
       left: 61px;
-      font-family: 'MrEavesModOT-Reg';
+      font-family: 'Quicksand', sans-serif;
       color: white;
-      font-size: 35px;
+      margin-top: 23px;
+      font-size: 30px;
     }
 }
 /*optimizing for large phones*/
@@ -524,7 +524,7 @@ p, p1 {
       position: absolute;
       top: -50px;
       left: 48px;
-      font-family: 'MrEavesModOT-Reg';
+      font-family: 'Quicksand', sans-serif;
       color: white;
       font-size: 20px;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -563,7 +563,7 @@ p, p1 {
       position: absolute;
       top: -80px;
       left: 28px;
-      font-family: 'MrEavesModOT-Reg';
+      font-family: 'Quicksand', sans-serif;
       color: white;
       font-size: 20px;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
