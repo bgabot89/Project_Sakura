@@ -17,7 +17,7 @@ class CommentsNew extends Component {
         //comment has been created, navigate the user to the index
         //We navigate by calling this.context.router.push with the
         //new path to navigate to.
-        this.context.router.push('/comments');
+        this.context.router.push('/');
       });
   }
 

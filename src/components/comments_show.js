@@ -17,7 +17,7 @@ class CommentsShow extends Component {
     console.log('clicked');
     this.props.deleteComment(this.props.params.id)
       .then(() => {
-        this.context.router.push('/comments');
+        this.context.router.push('/');
       });
   }
 

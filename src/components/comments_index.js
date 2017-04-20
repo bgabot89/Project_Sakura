@@ -17,6 +17,7 @@ class CommentsIndex extends Component {
           <Link to ={"comments/" + comment.id}>
           <h4 class="list-group-item-heading">{comment.title}</h4>
           <p class="list-group-item-text">{comment.categories}</p>
+          <p class="list-group-item-text">{comment.content}</p>
           </Link>
         </li>
       </div>
@@ -27,17 +28,11 @@ class CommentsIndex extends Component {
   render () {
     return (
       <div>
-      <h3 id="posts-header" className="text-center">Posts</h3>
-        <div id="post-button" className="text-center">
-          <Link to="/comments/new" className="btn btn-primary">
-            Add a post
-          </Link>
+        <div className="container">
+          <ul className="list-group">
+            {this.renderPosts()}
+          </ul>
         </div>
-      <div className="container">
-      <ul className="list-group">
-        {this.renderPosts()}
-      </ul>
-      </div>
     </div>
     );
   }
