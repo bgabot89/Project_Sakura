@@ -26,7 +26,8 @@ class Anime extends Component {
      }
 
      return (
-        <div className="song-image container" id="j-pop-bg">
+       <div className="song-section">
+        <div className="soundcloud-player container" id="j-pop-bg">
             <h1 className="song-name">{track ? track.title : ''}</h1>
           <div className="play-and-progress-section">
             <PlayButton
@@ -40,6 +41,7 @@ class Anime extends Component {
                 {...this.props}
             />
           </div>
+        </div>
         </div>
      );
    }

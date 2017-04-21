@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 export default class Genres extends React.Component {
     render () {
       return (
-        <div className="genre-page text-center">
+        <div className="genre-page text-center container">
         <h1> Curious about an event but you're unfamiliar with the genre? <br /> Project Sakura offers a variety of genre samples for you to listen at your convenience </h1>
 
       <div className="row">

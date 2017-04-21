@@ -25,19 +25,21 @@ class JElectro extends React.Component {
         }
 
         return (
-          <div className="song-image container" id="j-electro-bg">
-              <h1 className="song-name">{track ? track.title : ''}</h1>
-            <div className="play-and-progress-section">
-              <PlayButton
-                  className="flex-none button-transparent button-grow rounded"
-                  {...this.props}
-              />
-              <Progress
-                  className="flex-auto bg-darken-3 rounded"
-                  innerClassName="rounded-left bg-white"
-                  value={(currentTime / duration) * 100 || 0}
-                  {...this.props}
-              />
+          <div className="song-section">
+            <div className="soundcloud-player container" id="j-electro-bg">
+                <h1 className="song-name">{track ? track.title : ''}</h1>
+              <div className="play-and-progress-section">
+                <PlayButton
+                    className="flex-none button-transparent button-grow rounded"
+                    {...this.props}
+                />
+                <Progress
+                    className="flex-auto bg-darken-3 rounded"
+                    innerClassName="rounded-left bg-white"
+                    value={(currentTime / duration) * 100 || 0}
+                    {...this.props}
+                />
+              </div>
             </div>
           </div>
         );

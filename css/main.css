@@ -963,6 +963,14 @@ header {
   font-size: 30px;
 }
 
+.song-section {
+    height: 500px;
+}
+
+.soundcloud-player {
+  height: 400px;
+}
+
 #j-pop-bg {
   background:
     linear-gradient(
@@ -970,7 +978,7 @@ header {
       rgba(0, 0, 0, 0.45)
     ),
     url('../../images/j-pop-bg.png');
-    height: 300px;
+  background-repeat: no-repeat;
 }
 
 #j-rock-bg {
@@ -980,7 +988,7 @@ header {
       rgba(0, 0, 0, 0.45)
     ),
     url('../../images/j-rock-bg.png');
-    height: 300px;
+    background-repeat: no-repeat;
 }
 
 #j-electro-bg {
@@ -990,18 +998,16 @@ header {
       rgba(0, 0, 0, 0.45)
     ),
     url('../../images/j-electro-bg.png');
-    height: 300px;
+    background-repeat: no-repeat;
 }
 
 .song-name {
   color: white;
+  font-size: 50px;
 }
 
 .sb-soundplayer-progress-container {
   display: inline-block;
+  margin-top: 100px;
   margin-left: 20px;
-}
-
-.song-image {
-  min-height: 100%;
 }
