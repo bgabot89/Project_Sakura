@@ -29,6 +29,26 @@ const events = [
     'genre': 'jrock',
     'description': 'Listen to various j-pop artists in this special event in SF',
   },
+  {
+    'id': 'fanime',
+    'name': 'FanimeCon 2017',
+    'image': '../images/fanime.png',
+    'artist': 'Various',
+    'rating': 4,
+    'date':'05/26/17 - 05/29/17',
+    'genre': 'jpop',
+    'description': 'Attend the biggest anime convention in the bay area and watch some popular artists from your favorite anime shows.',
+  },
+  {
+    'id': 'megapoid',
+    'name': 'SRP Presents: Megapoid',
+    'image': '../images/megapoid.png',
+    'artist': 'Megapoid',
+    'rating': 4,
+    'date':'05/26/17',
+    'genre': 'jelectro',
+    'description': 'Fan-run Vocaloid concert project "Synthesized Reality Productions" has announced their first concert. Join the vocaloid experience in San Jose!',
+  },
 
 ];
 

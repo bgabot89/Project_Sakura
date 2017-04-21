@@ -16,7 +16,7 @@ withGoogleMap,
 )(props => (
   <GoogleMap
     ref={props.onMapLoad}
-    defaultZoom={9}
+    defaultZoom={10}
     defaultCenter={props.center}
   >
   {props.markers.map((marker, index) => (
@@ -44,8 +44,8 @@ export default class PopUpInfoWindowExample extends Component {
   //defines initial state where google map will render
     state = {
       center: {
-        lat: 37.80,
-        lng: -122.41
+        lat: 37.5,
+        lng: -122.31
       },
   //array of object markers
   markers: [
@@ -75,6 +75,24 @@ export default class PopUpInfoWindowExample extends Component {
       showInfo: false,
       infoContent:
         <div><img className="event-icon" src="../../images/jpop-summit.png"></img> <p><b>J-Pop Summit 2017</b></p> <p><b>Rating:</b></p> <p><b>Date:09/09/17 - 09/10/17</b></p> <p><b>Genre: <a href="/anime">J-Pop</a></b></p> <p>Listen to various j-pop artists in this special event in SF </p> <a href="/event/j-pop-summit">Post a comment</a> </div>
+    },
+    {
+      position: {
+        lat: 37.329008,
+        lng: -121.888794
+      },
+      showInfo: false,
+      infoContent:
+        <div><img className="event-icon" src="../../images/fanime.png"></img> <p><b>FanimeCon 2017</b></p> <p><b>Rating:</b></p> <p><b>Date:05/26/17 - 05/29/17</b></p> <p><b>Genre: <a href="/jelecanimetro">J-Pop</a></b></p> <p>Attend the biggest anime convention in the bay area and watch some popular artists from your favorite anime shows.</p> <a href="/event/fanime">Post a comment</a> </div>
+    },
+    {
+      position: {
+        lat: 37.332438,
+        lng: -121.886028
+      },
+      showInfo: false,
+      infoContent:
+        <div><img className="event-icon" src="../../images/megapoid.png"></img> <p><b>SRP Presents: Megapoid</b></p> <p><b>Rating:</b></p> <p><b>Date:05/26/17</b></p> <p><b>Genre: <a href="/jelectro">J-Electro</a></b></p> <p>Fan-run Vocaloid concert project "Synthesized Reality Productions" has announced their first concert. Join the vocaloid experience in San Jose! </p> <a href="/event/megapoid">Post a comment</a> </div>
     },
   ],
 };
