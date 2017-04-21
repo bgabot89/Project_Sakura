@@ -17,13 +17,36 @@
   padding: 0;
 }
 
+.content {
+  /*margin-bottom: 60px;*/
+  position: relative;
+  min-height: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+/*
+body {
+  margin-bottom: 60px;
+}*/
+
+a {
+  text-decoration: none!important;
+}
+
 .navbar-list a:hover {
   text-decoration: none;
   color: #F0E68C;
 }
 
 #body-color {
-  background-color: pink
+  background-color: pink;
 }
 
 h1 {
@@ -612,6 +635,7 @@ header {
 .events-selector {
   position: relative;
   background-color: pink;
+  min-height: 100%;
 }
 
 .learn-more-button {
@@ -681,9 +705,14 @@ header {
 
 
 /******* Footer CSS *********/
-footer {
-  min-height: 100%;
-  background-color: black;
+
+.footer {
+  position: relative;
+  height: 60px;
+  margin-top: 70px;
+  padding: 1rem;
+  background-color: #626262;
+  width: 100%;
 }
 
 .footer-text {
@@ -694,7 +723,7 @@ footer {
 
 .copyright-text {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /******* Map CSS *********/
@@ -750,6 +779,55 @@ footer {
   color: white;
   font-size: 18px;
 }
+
+.comment-button {
+  margin: 10px 50px 0 0;
+  display: inline-block;
+  border-radius: 3px;
+  border: 3px solid #2E3192;
+  background-color: #00AEEF;
+  width: 170px;
+  line-height: 40px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.comment-button:hover {
+  background-color: #2b7490;
+}
+
+.comment-text {
+  font-family: Avenir-Roman;
+  color: white;
+  font-size: 18px;
+}
+
+.tickets-button {
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 3px solid #2E3192;
+  background-color: #49d13f;
+  width: 170px;
+  line-height: 40px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.tickets-button:hover {
+  background-color: #24851c;
+}
+
+.tickets-text {
+  font-family: Avenir-Roman;
+  color: white;
+  font-size: 18px;
+}
+
+
+/*****comments form****/
 
 .new-comments-form {
   background-color: #d3d3d3;
@@ -924,4 +1002,6 @@ footer {
   margin-left: 20px;
 }
 
-/***React-router slider CSS***/
+.song-image {
+  min-height: 100%;
+}

@@ -599,13 +599,6 @@ render () {
       <h2 className="text-center" id="featured-events-header"> Featured Events</h2>
       {events.map(eventData => <EventPreview key={eventData.id} {...eventData} />)}
     </div>
-
-      <footer className="text-center">
-        <div className="col-md-4 footer-text">About</div>
-        <div className="col-md-4 footer-text">How it Works</div>
-        <div className="col-md-4 footer-text">Contact</div>
-        <div className="copyright-text">Copyright 2017, All rights reserved</div>
-      </footer>
     </div>
 )
 }

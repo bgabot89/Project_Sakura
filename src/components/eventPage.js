@@ -20,6 +20,7 @@ export default class EventPage extends React.Component {
             <p className="name">Genre: {event.genre}</p>
             <p className="name">Description: {event.description}</p>
              <Link className="comment-button" to="/comments/new"> <div className="comment-text">Post a Comment</div></Link>
+             <a className="tickets-button" href={event.link}><div className="tickets-text">Buy Tickets</div></a>
           </div>
           <h1> Comments:</h1>
           <CommentsIndex/>

@@ -11,6 +11,7 @@ export default class Genres extends React.Component {
         <div className="genre-page text-center">
         <h1> Curious about an event but you're unfamiliar with the genre? <br /> Project Sakura offers a variety of genre samples for you to listen at your convenience </h1>
 
+      <div className="row">
           <div className="col-md-4">
           <Link to ="/anime">
           <svg className="genre-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1567.2 1230.1">
@@ -186,6 +187,7 @@ export default class Genres extends React.Component {
         </Link>
         <p className="genre-info"> J-Electro</p>
         </div>
+      </div>
 
       </div>
       );

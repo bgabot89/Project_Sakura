@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import { Link } from 'react-router';
 import Home from './home';
+import Footer from './footer';
 
 export default class Navbar extends Component {
 
@@ -16,7 +17,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <div>
+      <div className="content">
       <nav className="navbar navbar-inverse">
         <div className="container-fluid">
           <div className="navbar-header">
@@ -39,6 +40,7 @@ export default class Navbar extends Component {
       </div>
       </nav>
     {this.props.children || <Home/>}
+    <Footer />
     </div>
     );
   }
